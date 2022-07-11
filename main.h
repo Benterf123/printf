@@ -4,6 +4,7 @@
 #include <stdarg.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * struct print - struct for printing functions
@@ -58,4 +59,3 @@ int _printf(const char *format, ...);
 int (*get_print_func(const char *s, int index))(va_list, char *, unsigned int);
 
 #endif
-
