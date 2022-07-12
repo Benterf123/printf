@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_R - prints a string in rot13
+ * print_R - crypt and prints a string in rot13
  * @R: string to print
  *
  * Return: number of chars printed
