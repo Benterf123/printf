@@ -68,7 +68,7 @@ int print_o(va_list o)
  * print_b - takes an unsigned int and prints it in binary notation
  * @b: unsigned in to print
  *
- * Return: number of digits printed
+ * Return: number of digits to print
  */
 int print_b(va_list b)
 {
